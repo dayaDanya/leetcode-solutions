@@ -6,10 +6,6 @@ package org.goncharov.leetcode.arrays;
  * @author Danil Goncharov
  */
 public class SearchInsertPosition {
-    public static void main(String[] args) {
-        int[] n = {3, 5, 6}; //2
-        System.out.println(n[(n.length - 1) / 2]);
-    }
 
     public static int searchInsert(int[] nums, int target) {
         var first = 0;
